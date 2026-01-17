@@ -244,33 +244,6 @@ const config = {
             position: 'right',
             label: '下载',
           },
-          {
-            type: 'doc',
-            docId: 'donate',
-            position: 'right',
-            label: '捐赠',
-          },
-          {
-            href: 'https://github.com/gavfu/chzhshch-blog',
-            // label: 'GitHub',
-            position: 'right',
-            className: 'header-github-link',
-            'aria-label': 'GitHub Repository'
-          },
-          {
-            href: 'https://t.me/chzhshchblog',
-            // label: '反馈',
-            position: 'right',
-            className: 'header-telegram-link',
-            'aria-label': 'Telegram'
-          },
-          {
-            href: 'https://twitter.com/chzhshch_eth',
-            // label: 'Twitter',
-            position: 'right',
-            className: 'header-twitter-link',
-            'aria-label': 'Twitter'
-          },
         ],
       },
       docs: {
