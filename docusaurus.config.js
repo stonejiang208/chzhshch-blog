@@ -131,6 +131,11 @@ const config = {
               },
               {
                 type: 'docSidebar',
+                sidebarId: 'knowledgeSidebar',
+                label: '缠论精要',
+              },
+              {
+                type: 'docSidebar',
                 sidebarId: 'confuciusSidebar',
                 label: '文史哲学（《论语》详解）',
               },

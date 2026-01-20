@@ -9,7 +9,7 @@
  Create as many sidebars as you want.
  */
 
-// @ts-check
+// @ts-nocheck
 
 const { sidebar: timelineSidebar } = require('./sidebars/timeline');
 // const { sidebar: byCategorySidebar } = require('./sidebars/byCategory');
@@ -33,6 +33,7 @@ const { sidebar: fundAnalysisSidebar } = require('./sidebars/fundanalysis');
 
 const { sidebar: othersSidebar } = require('./sidebars/others');
 const { sidebar: identitySidebar } = require('./sidebars/identity');
+const { sidebar: knowledgeSidebar } = require('./sidebars/knowledge');
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
@@ -59,6 +60,7 @@ const sidebars = {
   
   othersSidebar,
   identitySidebar,
+  knowledgeSidebar,
 
   // But you can create a sidebar manually
   /*

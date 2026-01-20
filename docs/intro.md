@@ -15,25 +15,9 @@ hide_table_of_contents: true
 
 世人皆苦，希望“永远只愿意站立”，而且“希望探索、展示人的所有潜能、可能”的“缠中说禅”，能通过本站的存在，照亮一方天地，给越来越多的世人以智慧、财富和勇气。
 
-<div style={{fontSize: '16px', color: 'gray' }}>
 
-> 本站网址 https://chzhshch.blog<br/>
-> 备用网址 https://chzhshchblog.github.io<br/>
-
-</div>
-
-最后，致无尽虚空中那些我理解或者无法理解的存在：如果本站的建立及维系能称得上是某种“善因”而对应着些许“善果”的话，那么本人唯一希望的“善果”就是“世间法”意义上的 <span style={{fontWeight: 'bold', fontSize: '18px', color: '#2e8555'}}>阖家安康，却病延年</span>。
 
 <div style={{marginTop: '30px'}}>
-
-# 支持本站
-
-本站将在本人力所能及的前提下长期开源和存在，您也可以通过以下方式表达支持：
-
-- 通过 [Telegram](https://t.me/chzhshchblog) 反馈相关文档错误或疏漏
-- 加星收藏 [Github 源码库](https://github.com/gavfu/chzhshch-blog)
-- 关注 [Twitter](https://twitter.com/chzhshch_eth)
-- [捐赠](./donate.md)
 
 # 链接
 </div>
