@@ -6,6 +6,8 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
 // const remarkAdsense = require('./src/plugins/remark-adsense');
+const remarkMath = require('remark-math');
+const rehypeKatex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -23,21 +25,28 @@ const config = {
   organizationName: 'gavfu', // Usually your GitHub org/user name.
   projectName: 'chzhshch-blog', // Usually your repo name.
 
-  // stylesheets: [
-  //   {
-  //     rel: "preconnect",
-  //     href: "https://fonts.googleapis.com",
-  //   },
-  //   {
-  //     rel: "preconnect",
-  //     href: "https://fonts.gstatic.com",
-  //     crossorigin: "anonymous",
-  //   },
-  //   {
-  //     rel: "stylesheet",
-  //     href: "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700;900&display=swap",
-  //   },
-  // ],
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+      crossorigin: 'anonymous',
+    },
+    // {
+    //   rel: "preconnect",
+    //   href: "https://fonts.googleapis.com",
+    // },
+    // {
+    //   rel: "preconnect",
+    //   href: "https://fonts.gstatic.com",
+    //   crossorigin: "anonymous",
+    // },
+    // {
+    //   rel: "stylesheet",
+    //   href: "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700;900&display=swap",
+    // },
+  ],
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -55,6 +64,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
           breadcrumbs: false,
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
           // remarkPlugins: [remarkAdsense],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.

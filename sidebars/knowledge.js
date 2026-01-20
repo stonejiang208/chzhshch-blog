@@ -25,4 +25,9 @@ exports.sidebar = [
       'knowledge/philosophy/走势终完美',
     ],
   },
+  {
+    type: 'doc',
+    id: 'knowledge/math-test',
+    label: '数学公式测试'
+  },
 ];
