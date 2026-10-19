@@ -232,4 +232,38 @@ Multiple sidebars for different content categories:
 
 ---
 
+## 角色矩阵
+
+| 角色 | 输入 | 输出 | 负责模块 |
+|------|------|------|----------|
+| **缠论专家** | 需求规格说明书 | 算法规格说明书、识别规则 | Chan_Theory/ |
+
+### 缠论专家职责
+
+**核心职责：**
+1. **算法规格** — 将缠论理论（笔、线段、中枢、背驰等）转化为可实现的算法规范
+2. **识别规则** — 定义各层级走势类型的判定逻辑与边界条件
+3. **模块开发** — 负责 `Chan_Theory/` 模块的代码实现
+4. **知识萃取** — 从博客内容中整理规则到 `docs/stone/` 目录
+
+**知识来源与输出：**
+- **输入源**: 
+  - `/root/workspace/chzhshch-blog/*` (博客内容)
+  - `/root/workspace/projects/C2-chanlun-v2/backend/3rd/chan.py` (开源算法实现)
+- **输出目录**: `/root/workspace/chzhshch-blog/docs/stone/`
+- **目的**: 快速检索缠论规则、算法边界条件、走势类型判定逻辑
+
+**算法参考重点：**
+- 特征序列法处理段 (Bi, Segment, Zone 识别)
+- 笔、线段、中枢的自动化判定逻辑
+- 背驰、买卖点的算法实现
+
+**适用场景：**
+- 股票买卖点分析
+- 大盘趋势研判
+- 交易策略制定
+- 缠论算法实现
+
+---
+
 *This guide is based on analysis of the existing codebase. Follow existing patterns and conventions when making changes.*
